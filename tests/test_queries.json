@@ -1,0 +1,42 @@
+[
+  {
+    "query": "how does BM25 ranking work",
+    "relevant_doc_ids": [3, 4, 5, 10, 26]
+  },
+  {
+    "query": "semantic search with neural embeddings",
+    "relevant_doc_ids": [6, 7, 8, 9, 14]
+  },
+  {
+    "query": "transformer architecture for NLP",
+    "relevant_doc_ids": [1, 2, 13, 16, 24]
+  },
+  {
+    "query": "vector similarity search library",
+    "relevant_doc_ids": [6, 7, 9]
+  },
+  {
+    "query": "evaluation metrics for search systems",
+    "relevant_doc_ids": [12]
+  },
+  {
+    "query": "convolutional networks for image recognition",
+    "relevant_doc_ids": [1, 21]
+  },
+  {
+    "query": "difference between stemming and lemmatization",
+    "relevant_doc_ids": [15, 16]
+  },
+  {
+    "query": "retrieval augmented generation with LLMs",
+    "relevant_doc_ids": [24, 25]
+  },
+  {
+    "query": "building a search engine with inverted index",
+    "relevant_doc_ids": [3, 10, 26, 27]
+  },
+  {
+    "query": "reinforcement learning applications",
+    "relevant_doc_ids": [23]
+  }
+]
