@@ -19,7 +19,7 @@ rotating logs, and a Streamlit UI with inline keyword highlighting.
 | 2 | `IndexHNSWFlat` replaces `IndexFlatIP` (O(log N) queries, ~98% recall) | `src/dense_retriever.py` |
 | 3 | POS-filtered WordNet expansion + embedding-similarity filter | `src/query_processor.py` |
 | 4 | **LightGBM LambdaRank** replaces hand-weighted fusion | `src/ltr.py`, `scripts/train_ltr.py` |
-| 5 | On-disk embedding cache + `@cached_property` lazy loading | `src/cache.py`, `src/dense_retriever.py`, `src/reranker.py` |
+| 5 | On-disk embedding cache + `@cached_property` lazy loading | `src/dense_retriever.py`, `src/reranker.py` |
 | 6 | Central rotating logger, try/except around every I/O | `src/logger.py` (all modules) |
 | 7 | Per-stage latency recorded on every query | `src/hybrid_search.py` |
 | 8 | Streamlit: `<mark>` highlighting, history, latency row, LTR toggle | `app.py` |
