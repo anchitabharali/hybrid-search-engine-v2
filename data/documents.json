@@ -1,0 +1,157 @@
+[
+  {
+    "id": 0,
+    "title": "Introduction to Machine Learning",
+    "text": "Machine learning is a field of artificial intelligence that enables computers to learn patterns from data without being explicitly programmed. It includes supervised learning, unsupervised learning, and reinforcement learning. Common algorithms include decision trees, support vector machines, and neural networks."
+  },
+  {
+    "id": 1,
+    "title": "Deep Learning Fundamentals",
+    "text": "Deep learning uses artificial neural networks with many hidden layers to model complex patterns. Architectures such as convolutional neural networks, recurrent neural networks, and transformers power modern AI systems for vision, speech, and natural language understanding."
+  },
+  {
+    "id": 2,
+    "title": "The Transformer Architecture",
+    "text": "The transformer model, introduced in the Attention Is All You Need paper, replaced recurrent layers with multi-head self-attention. Transformers scale well with data and compute, forming the backbone of modern large language models like BERT, GPT, and T5."
+  },
+  {
+    "id": 3,
+    "title": "BM25 and Probabilistic Retrieval",
+    "text": "BM25 is a ranking function used by search engines to estimate the relevance of documents to a query. It is based on the probabilistic retrieval framework and improves upon TF-IDF by incorporating term frequency saturation and document length normalization."
+  },
+  {
+    "id": 4,
+    "title": "TF-IDF Weighting",
+    "text": "Term Frequency-Inverse Document Frequency is a numerical statistic that reflects how important a word is to a document in a corpus. It is widely used in information retrieval and text mining tasks as a simple yet effective weighting scheme."
+  },
+  {
+    "id": 5,
+    "title": "Vector Space Model for Information Retrieval",
+    "text": "The vector space model represents documents and queries as vectors in a high-dimensional term space. Relevance is measured using cosine similarity between vectors. It forms the theoretical foundation of many classical search engines."
+  },
+  {
+    "id": 6,
+    "title": "Sentence Embeddings with SBERT",
+    "text": "Sentence-BERT (SBERT) produces fixed-size dense embeddings for sentences using siamese and triplet network structures on top of BERT. The embeddings can be compared with cosine similarity to perform semantic search, clustering, and paraphrase mining."
+  },
+  {
+    "id": 7,
+    "title": "Approximate Nearest Neighbor Search with FAISS",
+    "text": "FAISS is a library for efficient similarity search and clustering of dense vectors developed by Facebook AI. It supports exact search, product quantization, inverted file indices (IVF), and graph-based HNSW methods for scaling to billions of vectors."
+  },
+  {
+    "id": 8,
+    "title": "Cross-Encoders for Re-Ranking",
+    "text": "Cross-encoders take a query and a document together as input to a transformer and output a single relevance score. They are highly accurate but slow, so they are typically used to re-rank a small set of candidates retrieved by faster bi-encoder or lexical methods."
+  },
+  {
+    "id": 9,
+    "title": "Hybrid Search Systems",
+    "text": "Hybrid search combines lexical retrieval such as BM25 with dense vector retrieval to capture both exact keyword matches and semantic similarity. Score fusion methods like reciprocal rank fusion or weighted linear combinations produce a final ranked list."
+  },
+  {
+    "id": 10,
+    "title": "Inverted Index in Search Engines",
+    "text": "An inverted index maps terms to the list of documents that contain them. It is the core data structure behind fast keyword search in engines like Lucene, Elasticsearch, and Solr, allowing sub-second retrieval over billions of documents."
+  },
+  {
+    "id": 11,
+    "title": "Query Expansion Techniques",
+    "text": "Query expansion enriches a user query with additional terms such as synonyms, related concepts, or pseudo-relevance feedback terms. Tools like WordNet can provide synonym sets that help retrieve relevant documents that do not share the original query vocabulary."
+  },
+  {
+    "id": 12,
+    "title": "Evaluation Metrics for IR",
+    "text": "Precision, recall, mean average precision, and normalized discounted cumulative gain (NDCG) are standard evaluation metrics for information retrieval systems. They quantify how well a ranked list matches the human-labeled relevance judgments."
+  },
+  {
+    "id": 13,
+    "title": "Natural Language Processing Overview",
+    "text": "Natural language processing focuses on enabling machines to read, understand, and generate human language. Applications include machine translation, text summarization, sentiment analysis, question answering, and conversational agents."
+  },
+  {
+    "id": 14,
+    "title": "Word Embeddings: Word2Vec and GloVe",
+    "text": "Word embeddings represent words as dense vectors where semantically similar words are close together. Word2Vec uses skip-gram and continuous bag-of-words training, while GloVe is trained on global co-occurrence statistics."
+  },
+  {
+    "id": 15,
+    "title": "Lemmatization and Stemming",
+    "text": "Lemmatization reduces words to their dictionary form using vocabulary and morphological analysis. Stemming is a cruder heuristic that strips suffixes. Both are used in search engines to collapse related word forms into a single index term."
+  },
+  {
+    "id": 16,
+    "title": "Tokenization in NLP",
+    "text": "Tokenization splits text into tokens such as words, subwords, or characters. Byte-pair encoding and WordPiece are popular subword tokenizers used by modern language models to handle rare words and large vocabularies efficiently."
+  },
+  {
+    "id": 17,
+    "title": "Streamlit for Machine Learning Apps",
+    "text": "Streamlit is an open-source Python framework for quickly building interactive web apps for data science and machine learning demos. It turns plain Python scripts into browser-based dashboards with sliders, charts, and widgets."
+  },
+  {
+    "id": 18,
+    "title": "Python Programming Language",
+    "text": "Python is a high-level, interpreted programming language known for its clean syntax and large ecosystem. It dominates data science, machine learning, and web development thanks to libraries like NumPy, pandas, PyTorch, and Django."
+  },
+  {
+    "id": 19,
+    "title": "Relational Databases and SQL",
+    "text": "Relational databases organize data into tables with rows and columns, linked by foreign keys. SQL is the standard language used to query and manipulate them. Popular engines include PostgreSQL, MySQL, SQLite, and Microsoft SQL Server."
+  },
+  {
+    "id": 20,
+    "title": "Introduction to NoSQL Databases",
+    "text": "NoSQL databases relax the strict schema and ACID guarantees of relational systems to scale horizontally. Categories include document stores like MongoDB, key-value stores like Redis, wide-column stores like Cassandra, and graph databases like Neo4j."
+  },
+  {
+    "id": 21,
+    "title": "Convolutional Neural Networks for Vision",
+    "text": "Convolutional neural networks apply learnable filters across images to extract hierarchical spatial features. Architectures like ResNet, VGG, and EfficientNet achieve state-of-the-art results on image classification, detection, and segmentation benchmarks."
+  },
+  {
+    "id": 22,
+    "title": "Recurrent Neural Networks and LSTMs",
+    "text": "Recurrent neural networks process sequences by maintaining a hidden state across time steps. Long short-term memory and gated recurrent units mitigate vanishing gradients and were the dominant approach to sequence modeling before transformers."
+  },
+  {
+    "id": 23,
+    "title": "Reinforcement Learning Basics",
+    "text": "Reinforcement learning trains agents to take actions in an environment to maximize cumulative reward. Algorithms like Q-learning, policy gradients, and actor-critic methods are used for games, robotics, and recommendation systems."
+  },
+  {
+    "id": 24,
+    "title": "Large Language Models",
+    "text": "Large language models like GPT, Claude, and Gemini are transformer networks trained on massive text corpora. They can follow instructions, write code, summarize documents, and answer questions across a wide range of domains."
+  },
+  {
+    "id": 25,
+    "title": "Retrieval Augmented Generation",
+    "text": "Retrieval-augmented generation combines a document retriever with a generative language model. The retriever fetches relevant passages from an external corpus, which the language model uses to produce grounded, citation-backed answers."
+  },
+  {
+    "id": 26,
+    "title": "Elasticsearch and Lucene",
+    "text": "Elasticsearch is a distributed search and analytics engine built on Apache Lucene. It provides a REST API, full-text search with BM25 ranking, aggregations, and near real-time indexing for logs and documents."
+  },
+  {
+    "id": 27,
+    "title": "Web Crawling and Indexing",
+    "text": "Web crawlers discover pages by following hyperlinks and download their content. Crawled pages are parsed, deduplicated, and stored in an inverted index so that a search engine can return relevant results in milliseconds."
+  },
+  {
+    "id": 28,
+    "title": "PageRank Algorithm",
+    "text": "PageRank ranks web pages based on the link graph, assigning higher importance to pages linked by many other important pages. It was a foundational innovation behind Google's early search quality advantage."
+  },
+  {
+    "id": 29,
+    "title": "Data Science Workflow",
+    "text": "A typical data science workflow involves problem framing, data collection, cleaning, exploratory analysis, feature engineering, model training, evaluation, and deployment. Tools like Jupyter, pandas, scikit-learn, and MLflow support each stage."
+  },
+  {
+    "id": 30,
+    "title": "AI in hospitals",
+    "text": "AI in hospitals helps doctors detect diseases early using medical imaging and predictive models."
+  }
+]
