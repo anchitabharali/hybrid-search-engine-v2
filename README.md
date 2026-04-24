@@ -1,4 +1,4 @@
-# 🔎 Hybrid Search Engine · v2
+# Hybrid Search Engine · v2
 
 A production-grade mini search engine built on five techniques working together:
 
@@ -119,7 +119,7 @@ hybrid_search_engine/
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 ```bash
 # 1. Install
@@ -150,7 +150,7 @@ python main.py --no-ltr -q "..."        # force weighted fusion
 
 ---
 
-## 📊 Expected output
+## Expected output
 
 ### Single query (with timings)
 
@@ -196,7 +196,7 @@ python main.py --no-ltr -q "..."        # force weighted fusion
 
 ---
 
-## 🔧 Tuning reference
+## Tuning reference
 
 All knobs live in `config.py`:
 
@@ -213,7 +213,7 @@ All knobs live in `config.py`:
 
 ---
 
-## 📈 Scaling guide
+## Scaling guide
 
 | Corpus size | Recommended setup |
 |-------------|--------------------|
@@ -227,7 +227,7 @@ the BM25 API surface matches so `sparse_retriever.py` is the only file you chang
 
 ---
 
-## 🧪 Testing the upgrades
+## Testing the upgrades
 
 ```bash
 # Latency comparison: flat vs hnsw
@@ -243,6 +243,6 @@ python main.py -q "retrieval augmented generation"
 
 ---
 
-## 📜 License
+## License
 
 MIT.
