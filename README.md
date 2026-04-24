@@ -111,7 +111,6 @@ hybrid_search_engine/
 │   ├── reranker.py                 # Cross-encoder (lazy)
 │   ├── hybrid_search.py            # Orchestrator + LTR fallback + timings
 │   ├── ltr.py                      # NEW: LightGBM LambdaRank
-│   ├── cache.py                    # NEW: embedding cache
 │   ├── data_loader.py              # NEW: CSV/JSON/TXT loader
 │   ├── evaluator.py                # P@K, R@K, NDCG@K
 │   └── logger.py                   # NEW: central logging
