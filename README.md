@@ -11,9 +11,8 @@ rotating logs, and a Streamlit UI with inline keyword highlighting.
 
 ---
 
-## What changed from v1
 
-| # | Upgrade | File(s) |
+| # | Features | File(s) |
 |---|---------|---------|
 | 1 | 1500-doc corpus from 20 Newsgroups | `scripts/prepare_dataset.py`, `src/data_loader.py` |
 | 2 | `IndexHNSWFlat` replaces `IndexFlatIP` (O(log N) queries, ~98% recall) | `src/dense_retriever.py` |
