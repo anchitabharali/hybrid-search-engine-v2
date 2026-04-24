@@ -114,8 +114,7 @@ hybrid_search_engine/
 │   ├── data_loader.py              # NEW: CSV/JSON/TXT loader
 │   ├── evaluator.py                # P@K, R@K, NDCG@K
 │   └── logger.py                   # NEW: central logging
-├── cache/                          # faiss.index, embeddings.npy, bm25.pkl, ltr_model.lgb
-└── logs/                           # Rotating search.log
+
 ```
 
 ---
